@@ -1,9 +1,5 @@
 
-#[tokio::main]
-async fn main()-> Result<()>{
-    println!("Hello, world!");
-    return Ok(());
-}
+
 
 // this api will depend on this store 
 // rust has futures => promises in js
