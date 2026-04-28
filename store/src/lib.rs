@@ -10,3 +10,16 @@
 // multi threadning and async  is different 
 // async vs multi threading
 
+
+// here the store begins
+pub struct Store {
+
+}
+ impl Store {
+    pub fn create_user(&self) -> String {
+        format!("creating user")
+    }
+    pub fn create_website(&self) -> String {
+        format!("creating website")
+    }
+ }
